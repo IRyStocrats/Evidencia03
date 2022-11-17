@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Evidencia 003</title>
+	<link rel="stylesheet" href="Style/estilos.css">
+	<link rel="stylesheet" href="font-awesome.css">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="main.js"></script>
+	<link href="./css/Style.css" rel="stylesheet" />
+    <script src="./js/Display.js" type="text/javascript"></script>
+    <script src="./js/Calculadora.js" type="text/javascript"></script>
+    <script src="./js/index.js" type="text/javascript" defer></script>
+</head>
+<header>
+	<div class="overlay">
+<h1>Lo simple es mejor</h1>
+<h3>JavaScript</h3>
+<p>JavaScript es un lenguaje de secuencias de comandos que te permite crear contenido de actualización dinámica, controlar multimedia, animar imágenes y prácticamente todo lo demás</p>
+	
+<br>
+	
+		</div>
+</header>
+<body>
+	<div class="wrap">
+		<ul class="tabs">
+			<li><a href="#tab1"><span class="fa fa-home"></span><span class="tab-text">JAVASCRIPT</span></a></li>
+			<li><a href="#tab2"><span class="fa fa-group"></span><span class="tab-text">CALCULADORA</span></a></li>
+			<li><a href="#tab3"><span class="fa fa-briefcase"></span><span class="tab-text">RELOJ</span></a></li>
+			<li><a href="#tab4"><span class="fa fa-bookmark"></span><span class="tab-text">AHORCADO</span></a></li>
+		</ul>
+
+		<div class="secciones">
+			<article id="tab1">
+				<div>
+					<img src="https://d8285fmxt3duy.cloudfront.net/public/articulos/img/java-script1.jpg" height="350px" width="80%">
+					<h1>¿QUE ES JavaScript?</h1>
+						<p>JavaScript es un lenguaje de programación muy poderoso en el mundo del desarrollo web y conocer su trayectoria nos ayuda a entender cuáles son sus ventajas sobre otros lenguajes. Por ello, en este post te contaremos la historia de JavaScript.</p>
+					<h1>¿Cómo empieza la historia de JavaScript?</h1>
+						<p>JavaScript nace a partir de un navegador que actualmente no existe: NetScape. En 1995, Netscape se dio cuenta de que, cuando tenía algún documento HTML, no podía interactuar con lo que hacía el usuario. Es decir, lo único que podía hacer el navegador era esperar a recibir unos datos y luego enviarlos, a modo de formulario. Además, podía darle ciertos aspectos de diseño, como el alto y ancho, pero con muy poca versatilidad.
+						</p>
+						<p>Entonces, Brendan Eich creó JavaScript para NetScape. Este lenguaje de programación le da muchas más posibilidades a los navegadores. Con JavaScript podemos, por ejemplo, crear controles en la búsqueda de un contenido para que solo devuelva resultados con contenido, no textos vacíos.</p>
+						<p>El siguiente momento importante en la historia de JavaScript es la creación del elemento XML HttpRequest por parte de Microsoft en 1998. Este elemento viene a ser el padre de AJAX y nos permite cargar contenido o interactuar con el backend sin tener que volver a cargar la totalidad de la página web.</p>
+						<p>A lo largo de los años, se continuó hablando de JavaScript y, en el 2000, Douglas Crockford inventó el documento JSON, una forma de estandarizar objetos en JavaScript. En 2004, Gmail empezó a utilizar JavaScript e incorporó AJAX masivamente para hacer sus procesos más eficaces.</p>
+						<p>Llegados a este punto, JavaScript era tan útil que, en 2006, John Resig creó la librería JQuery, que nos permite reducir la complejidad de la sintaxis de JavaScript.</p>
+					<h1>¿Quien es el creador de JavaScript?</h1>
+						<p>Brendan Eich es un programador estadounidense conocido por inventar el lenguaje de programación JavaScript, así como el navegador Brave.Recibió su Bachiller en matemáticas y ciencias de la computación en la Universidad de Santa Clara. Recibió su maestría en 1986 de la Universidad de Illinois en Urbana-Champaign.</p>
+						<p>Eich comenzó su carrera en Silicon Graphics, trabajando por siete años en el sistema operativo y código de la red. Luego trabajó por tres años en MicroUnity Systems Engineering escribiendo el micronúcleo y el código de DSP, y en hacer el primer port de GCC para la MIPS R4000.
+						Tras trabajar en Silicon Graphics, pasó por varias empresas hasta llegar a Netscape Communications Corporation en abril de 1995, trabajando en el desarrollo del lenguaje JavaScript (originalmente llamado Mocha, luego denominado LiveScript) para el navegador web Netscape Navigator. A principios de 1998 ayudó a fundar la Fundación Mozilla, sirviendo como principal arquitecto.</p>
+						<p></p>
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Brendan_Eich_Mozilla_Foundation_official_photo.jpg/800px-Brendan_Eich_Mozilla_Foundation_official_photo.jpg" alt="" width="350px"><p><p>Cuando AOL cerró la unidad del navegador Netscape en julio de 2003, Eich ayudó a hacer girar a la Fundación Mozilla.</p></p>
+	
+				</div>
+			</article>
+			<article id="tab2">
+				<div class="container">
+					<div class="calculadora">
+						<div class="display">
+							<div id="valor-anterior"></div>
+							<div id="valor-actual"></div>
+						</div>
+						<button class="col-2" onclick="display.borrarTodo()">C</button>
+						<button onclick="display.borrar()">&larr;</button>
+						<button class="operador" value="dividir">/</button>
+						<button class="numero">7</button>
+						<button class="numero">8</button>
+						<button class="numero">9</button>
+						<button class="operador" value="multiplicar">X</button>
+						<button class="numero">4</button>
+						<button class="numero">5</button>
+						<button class="numero">6</button>
+						<button class="operador" value="restar">-</button>
+						<button class="numero">1</button>
+						<button class="numero">2</button>
+						<button class="numero">3</button>
+						<button class="operador" value="sumar">+</button>
+						<button class="col-2 numero">0</button>
+						<button class="numero">.</button>
+						<button class="operador" value="igual">=</button>
+					</div>
+				</div><p>El ser humano ha estado siempre en evolución. Llegó un momento en que fue necesario poder calcular las operaciones matemáticas básicas de un modo rápido y efectivo. Primero el ábaco, y luego la calculadora, han sido fundamentales para que la humanidad progresara.
+					Como hemos comentado en la introducción, hace ya miles de años que la civilización se vio en la necesidad de poder realizar cálculos de una manera mecánica, sin errores y rápidamente.Para el comercio, recaudar impuestos, llevar la contabilidad, e incluso la agricultura… cada vez era más frecuente la necesidad de realizar cálculos cada vez más complejos. Para resolver este problema primero surgió el antecesor o padre de las máquinas de cálculo: EL ABACO.
+				<p> 1624 se inventó el primer ingenio mecánico para contar: la máquina aritmética del profesor Wilhelm Schickard de la universidad alemana de Heidelberg, conocida como “reloj calculador” capaz de realizar las operaciones aritméticas básicas.</p>    
+	
+				Pero la primera calculadora se creó en 1642. Su inventor fue Blaise Pascal, cuyo padre era contable. Con tan solo 19 años, creó la máquina de calcular para liberar a su progenitor del aburrido trabajo de sumar una y otra vez columnas de números.</p>
+				<img src="https://curiosfera-historia.com/wp-content/uploads/Blaise-Pascal-inventor-de-la-calculadora.jpg" alt="">
+					
+			</article>
+			<article id="tab3">
+				<script src="./js/reloj.js" type="text/javascript" defer></script>
+				<div class="clock-container">
+					<div class="clock-digital">
+					<div class="date"></div>
+					<div class="time"></div>
+					<div class="day"> </div>
+					</div>
+					<div class="clock-analog">
+					<div class="spear"></div>
+					<div class="hour"></div>
+					<div class="minute"></div>
+					<div class="second"></div>
+					<div class="dail"></div>
+					</div>
+				</div>
+
+			</article>
+			<article id="tab4">
+				<link rel="stylesheet" href="./Style/style.css" >
+					<script type="text/javascript" src="./js/palabras.js" defer></script>
+					<script type="text/javascript" src="./js/script.js" defer></script>
+				<h1>Ahorcado Pixel</h1>
+				
+					<div class="ahorcado">
+					<canvas id="canvas"></canvas>
+					<div id="usedLetters"></div>
+				
+				<div id="usedLetters"></div>
+				<div id="wordContainer"></div>
+				<button id="startButton">START</button></div>
+				
+			</article>
+		</div>
+	</div>
+
+	<footer class="footer-distributed">
+
+		<div class="footer-left">
+
+		<h3>Evidencia<span>03</span></h3>
+
+		<p class="footer-links">
+			<a href="#" class="link-1">Home</a>
+			
+			<a href="#">Blog</a>
+		
+			<a href="#">Pricing</a>
+		
+			<a href="#">About</a>
+			
+			<a href="#">Faq</a>
+			
+			<a href="#">Contact</a>
+		</p>
+
+		<p class="footer-company-name">Me © 2020</p>
+		</div>
+
+		<div class="footer-center">
+
+		<div>
+			<i class="fa fa-map-marker"></i>
+			<p><span>Desconocido</span> San Juan de Lurigancho.Lima.Perú</p>
+		</div>
+
+		<div>
+			<i class="fa fa-phone"></i>
+			<p>+51 993174422</p>
+		</div>
+
+		<div>
+			<i class="fa fa-envelope"></i>
+			<p><a href="mailto:support@company.com">74297745@certus.edu.pe</a></p>
+		</div>
+
+		</div>
+
+		<div class="footer-right">
+
+		<p class="footer-company-about">
+			<span>Acerca de mi</span>
+			Soy un estudiante del Instituto Certus
+		</p>
+
+		<div class="footer-icons">
+
+			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-linkedin"></i></a>
+			<a href="#"><i class="fa fa-github"></i></a>
+
+		</div>
+
+		</div>
+
+	</footer>
+</body>
+</html>
